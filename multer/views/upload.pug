@@ -1,0 +1,8 @@
+html
+head 
+body 
+  if(pic)
+    img(src=pic width="500px" height="500px")
+  form(method="post" action="/", enctype="multipart/form-data")
+    input(name='avatar', type='file')
+    input(name='submit', type='submit', value='upload')
